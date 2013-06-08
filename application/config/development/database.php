@@ -51,7 +51,7 @@ $db['development']['hostname'] = 'localhost';
 $db['development']['username'] = 'local_superadmin';
 $db['development']['password'] = 'DMmanch35';
 $db['development']['database'] = 'local_pbx';
-$db['development']['dbdriver'] = 'mysql';
+$db['development']['dbdriver'] = 'mysql'; 
 $db['development']['dbprefix'] = '';
 $db['development']['pconnect'] = TRUE;
 $db['development']['db_debug'] = TRUE;
@@ -65,7 +65,7 @@ $db['development']['stricton'] = FALSE;
 
 //Define the active group to use (to connect to db)
 $active_group = 'development';
-
+    
 
 /* End of file database.php */
 /* Location: ./application/config/development/database.php */
